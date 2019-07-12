@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <script src="addin.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+      <div class="panel_area">
+        <iframe id ="iframe" src="https://sytespace.net/" class="mainframe"></iframe>
+      </div>
+      <div class="icon-bar">
+        <img class="logo" src="https://raw.githubusercontent.com/sytespace/Branding/master/Logos/Main/sytespace_bg.jpg" width="50px" height="50px;">
+        <a class="active" onclick="go('https://sytespace.net/')"><i class="fa fa-home"></i></a>
+        <a class="active" onclick="go('https://sytespace.net/cart.php')"><i class="fa fa-shopping-cart"></i></a>
+        <a onclick="go('https://sytespace.net/submitticket.php')"><i class="fa fa-ticket-alt"></i></a>
+        <a onclick="go('https://sytespace.net/clientarea.php?action=details')"><i class="fa fa-user"></i></a>
+        <div class="actionbuttons">
+          <a onclick="shut()"><i class="fas fa-times-circle"></i></a>
+          <a onclick="minimize()" id="maxmin"><i class=""></i></i></a>
+        </div>
+      </div>
+  </body>
+</html>

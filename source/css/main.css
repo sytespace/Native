@@ -1,0 +1,58 @@
+body, html {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.mainframe {
+    margin: 0;
+    width: calc(100vw - 63px);
+    height: 100vh;
+}
+
+.icon-bar {
+    width: 60px;
+    height:100vh; /* Set a specific width */
+    background-color: black; /* Dark-grey background */
+    border-right: 3px solid #1e1d45;
+  }
+  
+.icon-bar i {
+    font-size: 25px;
+}
+
+.icon-bar .logo {
+    padding: 5px;
+    background: #1e1d45;
+    -webkit-app-region: drag;
+}
+
+.icon-bar a {
+    display: block; /* Make the links appear below each other instead of side-by-side */
+    text-align: center; /* Center-align text */
+    padding: 16px; /* Add some padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    -webkit-app-region: no-drag;
+    font-size: 30px;
+  }
+  
+.icon-bar a:hover {
+    background-color: white; /* Add a hover color */
+    color: black;
+  }
+
+.icon-bar .actionbuttons {
+    bottom: 0;
+    position: absolute;
+}
+
+.panel_area {
+    width: calc(100vw - 63px);
+    height: 100vh;
+    text-align: center;
+    color: black;
+    float: right;
+}
