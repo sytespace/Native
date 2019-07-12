@@ -11,11 +11,15 @@ var settings = {
     // The name of the executable of your built
     exe: './sytespace-native.exe',
     // Icon
-    iconUrl: 'https://raw.githubusercontent.com/sytespace/Branding/master/Logos/Main/sytespace.ico',
+    iconUrl: './sytespace.ico',
     // Name for installer (exe)
     setupExe: 'sytespace_installer.exe',
     // Force no exe
     noMsi: true,
+    // Cert
+    certificateFile: 'certs/mauromartins@email.com.pfx',
+    // Cert PW - Changed to sytespace for github
+    certificatePassword: 'sytespace',
 };
 
 resultPromise = electronInstaller.createWindowsInstaller(settings);
