@@ -3,6 +3,10 @@
 # SyteSpace Native App by Mauro M.
 Native app built with electron, made to streamline a client's SyteSpace experience
 
+# Download
+
+You can get the latest release [here](https://github.com/sytespace/Native/releases)
+
 ## Running on your local machine
 ### Requirements:
 * Node (& npm)
