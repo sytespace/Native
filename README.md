@@ -5,8 +5,8 @@ Native app built with electron, made to streamline a client's SyteSpace experien
 
 # Download
 
-You can get the latest release [here](https://github.com/sytespace/Native/releases)
-VirusTotal: https://www.virustotal.com/gui/file/7236eb0b53ca9b5b32da3619bc497ed151956eded2cc1c1a44717a5c4f5bee0a/detection
+* You can get the latest release [here](https://github.com/sytespace/Native/releases)
+* VirusTotal: https://www.virustotal.com/gui/file/7236eb0b53ca9b5b32da3619bc497ed151956eded2cc1c1a44717a5c4f5bee0a/detection
 
 ## Running on your local machine
 ### Requirements:
