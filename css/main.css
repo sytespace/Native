@@ -27,6 +27,7 @@ body, html {
     padding: 5px;
     background: #1e1d45;
     -webkit-app-region: drag;
+    cursor: drag;
 }
 
 .icon-bar a {
@@ -37,6 +38,7 @@ body, html {
     color: white; /* White text color */
     -webkit-app-region: no-drag;
     font-size: 30px;
+    cursor: pointer;
   }
   
 .icon-bar a:hover {

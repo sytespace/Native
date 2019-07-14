@@ -22,8 +22,6 @@ function createWindow () {
     webPreferences: {
       nodeIntegration: true
     },
-    frame: false,
-    transparent:true,
     show: false
   })
 
@@ -32,7 +30,7 @@ function createWindow () {
   // Remove the menu
   mainWindow.setMenu(null)
   // Open devtools
-  // mainWindow.openDevTools()
+  //mainWindow.openDevTools()
 
   mainWindow.once('ready-to-show', () => {
     mainWindow.show()
@@ -52,9 +50,6 @@ function createWindow () {
 // Some APIs can only be used after this event occurs.
 app.on('ready', function() {
   createWindow();
-  mainWindow.webContents.on('did-finish-load', function() {
-    mainWindow.webContents.executeJavaScript('setarrows();');
-  });
 });
 
 
@@ -70,14 +65,6 @@ app.on('activate', function () {
   // dock icon is clicked and there are no other windows open.
   if (mainWindow === null) createWindow()
 })
-
-// Helper Functions
-
-function setarrows() {
-  // Function to default arrows to avoid shite behavior from fontawesome
-  document.getElementById("maxmin").className = "fas fa-arrows-alt";
-  // Further icon setting is managed by minimize()
-}
 
 // Discord RTC
 global.info = {

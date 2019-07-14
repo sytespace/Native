@@ -37,9 +37,3 @@ function minimize() {
       window.unmaximize();
   }
 }
-
-function setarrows() {
-  // Function to default arrows to avoid shite behavior from fontawesome
-  document.getElementById("maxmin").className = "fas fa-arrows-alt";
-  // Further icon setting is managed by minimize()
-}
