@@ -40,7 +40,10 @@
       "target": [
         "AppImage",
         "deb"
-      ]
+      ],
+      "icon": "assets/icons/sytespace.ico",
+      "category": "Network",
+      "executableName": "sytespace_native_installer"
     },
     "win": {
       "target": "squirrel",
