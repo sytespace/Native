@@ -22,7 +22,7 @@
     "electron-winstaller": "^3.0.4"
   },
   "build": {
-    "appId": "yourappid",
+    "appId": "sytespace",
     "dmg": {
       "contents": [
         {
@@ -42,7 +42,7 @@
         "AppImage",
         "deb"
       ],
-      "icon": "assets/icons/sytespace.ico",
+      "icon": "assets/icons/256x256.png",
       "category": "Network",
       "executableName": "sytespace_native_installer"
     },
