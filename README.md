@@ -31,6 +31,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- prettier-ignore -->
 <table>
   <tr>
+		    <td align="center"><a href="https://itsmmgamer.tk"><img src="https://avatars1.githubusercontent.com/u/22800592?v=4" width="100px;" alt="itsmmgamer"/><br /><sub><b>itsmmgamer</b></sub></a><br /><a href="https://github.com/sytespace/Native/commits?author=MM-coder" title="Code">💻</a></td>
     <td align="center"><a href="http://piggyplex.net"><img src="https://avatars3.githubusercontent.com/u/15018948?v=4" width="100px;" alt="PiggyPlex"/><br /><sub><b>PiggyPlex</b></sub></a><br /><a href="https://github.com/sytespace/Native/issues?q=author%3APiggyPlex" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://sytespace.net"><img src="https://avatars3.githubusercontent.com/u/42699143?v=4" width="100px;" alt="ThatGuy5275"/><br /><sub><b>ThatGuy5275</b></sub></a><br /><a href="https://github.com/sytespace/Native/commits?author=Wallvon" title="Tests">⚠️</a></td>
     <td align="center"><a href="https://loving.digital"><img src="https://avatars0.githubusercontent.com/u/19347018?v=4" width="100px;" alt="Josh Miles"/><br /><sub><b>Josh Miles</b></sub></a><br /><a href="#question-DefinitelyNotJosh" title="Answering Questions">💬</a></td>
