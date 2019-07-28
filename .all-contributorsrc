@@ -31,6 +31,15 @@
       "contributions": [
         "question"
       ]
+    },
+    {
+      "login": "adameg2305",
+      "name": "Adam Griffiths",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/44293115?v=4",
+      "profile": "http://sytespace.net",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
