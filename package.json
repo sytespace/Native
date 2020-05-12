@@ -9,17 +9,19 @@
     "dist": "electron-builder",
     "mac": " electron-builder --mac"
   },
-  "author": "Mauro M. <mm@sytespace.net> (https://itsmmgamer.tk)",
+  "author": "Mauro M. <hello@maurom.dev> (https://maurom.dev)",
   "license": "SEE LICENSE IN license.md",
   "devDependencies": {
     "electron": "^5.0.6",
     "electron-builder": "^21.0.15",
-    "electron-builder-squirrel-windows": "^21.0.16"
+    "electron-builder-squirrel-windows": "^21.0.16",
+    "minimist": ">=1.2.3"
   },
   "dependencies": {
     "discord-rich-presence": "0.0.8",
     "electron-squirrel-startup": "^1.0.0",
-    "electron-winstaller": "^3.0.4"
+    "electron-winstaller": "^3.0.4",
+    "minimist": ">=1.2.3"
   },
   "build": {
     "appId": "sytespace",
