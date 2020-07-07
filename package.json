@@ -12,7 +12,7 @@
   "author": "Mauro M. <hello@maurom.dev> (https://maurom.dev)",
   "license": "SEE LICENSE IN license.md",
   "devDependencies": {
-    "electron": "^5.0.6",
+    "electron": "^7.2.4",
     "electron-builder": "^21.0.15",
     "electron-builder-squirrel-windows": "^21.0.16",
     "minimist": ">=1.2.3"
